@@ -12,7 +12,8 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
-  if (array.length === 1){
+  let newMin
+  while (array.length != 1){
     
   } else {
     
