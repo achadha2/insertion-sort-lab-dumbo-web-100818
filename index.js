@@ -18,4 +18,5 @@ function insertionSort(array){
     let newMin = findMinAndRemove(array)
     sorted.push(newMin)
   } 
+  return sorted
 }
